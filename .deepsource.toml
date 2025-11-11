@@ -1,23 +1,6 @@
-version = 1
-
-# Ativa o analisador de Python
-[[analyzers]]
-name = "python"
-enabled = true
-
-  [analyzers.meta]
-  runtime_version = "3.x"
-
-# Opcional: ativa o formatador automático autopep8
-[[transformers]]
-name = "autopep8"
-enabled = true
-
-# Opcional: ativa o formatador de imports
-[[transformers]]
-name = "isort"
-enabled = true
-
-[[analyzers]]
-name = "python-security"
-enabled = true
+version = 1 
+[[analyzers]] 
+name = "python" 
+enabled = true 
+[analyzers.meta] 
+runtime_version = "3.x" 

@@ -8,6 +8,3 @@ enabled = true
 runtime_version = "3.x.x"
 dependency_file_paths = ["requirements.txt"]
 
-[[transformers]]
-name = "black"
-enabled = true
